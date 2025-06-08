@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Restaurante La Buena Mesa - Sabores que te harán volver. Disfruta de una experiencia culinaria única con nuestro menú variado y servicio excepcional.">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Restaurante La Buena Mesa - Ristorante Italiano</title>
 </head>
 <body>
-    <body>
 
   <header>
-    <h1>La Buena Mesa</h1>
+    <h1>Restaurante La Buena Mesa</h1>
     <p>Sabores que te harán volver</p>
+    
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="/menu/menu.html">Menú</a>
+      <a href="/reservas/reservas.html">Trabaja con nosotros</a>
+    </nav>
   </header>
 
-  <nav>
-    <a href="index.html">Inicio</a>
-    <a href="./menu/menu.html">Menú</a>
-    <a href="./job/job.html">Trabaja con nosotros</a>
-  </nav>
-
+  <main>
   <section id="nosotros">
     <h2>Bienvenido a La Buena Mesa</h2>
     <p>En el corazón de la ciudad, nuestro restaurante ofrece una experiencia culinaria inolvidable. Desde platos tradicionales hasta creaciones modernas, cada bocado es una celebración de sabor y calidad.</p>
@@ -31,19 +32,14 @@
     <a href="./menu/menu.html">Ver Menú</a>
   </section>
 
-  <section id="reserva">
-    <h3>Haz tu Reserva</h3>
-    <form onsubmit="alert('Reserva enviada. ¡Gracias!'); return false;">
-      <input type="text" placeholder="Nombre completo" required><br>
-      <input type="email" placeholder="Correo electrónico" required><br>
-      <input type="date" required><br>
-      <input type="time" required><br>
-      <button type="submit">Reservar</button>
-    </form>
+  <section id="reservas">
+    <h3>Reserve mesa con nosotros</h3>
+    <a href="./reservas/reservas.html">Reservas</a>
+    <p>Si lo prefiere puede reservar llamando al <a href="tel:+34123456789">123456789</a></p>
   </section>
-
+</main>
   <footer id="contacto">
     © 2025 La Buena Mesa | Calle Gourmet 123, Ciudad | Tel: 123 456 789
   </footer>
 </body>
-</html>l
+</html>
