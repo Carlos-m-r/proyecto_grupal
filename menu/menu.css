@@ -2,11 +2,11 @@ body {
       font-family: 'Arial', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: rgb(0, 0, 0);
+      background-color: rgb(230, 224, 224);
       color: #000000;
     }
    header {
-  background-color: black;
+  background-color: rgb(#818181);
   color: white;
   text-align: center;
   padding: 1.5em 0;
@@ -19,7 +19,7 @@ body {
       margin: auto;
     }
     h2 {
-      border-bottom: 2px solid #050505;
+      border-bottom: 2px solid #a09797;
       padding-bottom: 0.3em;
       margin-top: 2em;
     }
@@ -37,12 +37,12 @@ body {
     .descripcion {
       font-style: italic;
       margin-top: 0.3em;
-      color: #555;
+      color: #818181;
     }
     footer {
       text-align: center;
       padding: 1em;
-      background: #030303;
+      background: #818181;
       margin-top: 3em;
       font-size: 0.9em;
     }
