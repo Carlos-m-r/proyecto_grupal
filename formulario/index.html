@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulario de Registro</title>
+</head>
+
+<body>
+  <h1>Formulario de Registro</h1>
+  <p>Por favor, complete este formulario para realizar su reserva</p>
+
+
+  <form action="*enlace de pagina de recpcion" method="post">
+
+    <fieldset>
+
+      <label for="first-name">
+        Ingrese su nombre:
+        <input id="first-name" type="text" requiered name="first-name" />
+
+      </label>
+
+
+      <label for="last-name">
+        Ingrese su apellido:
+        <input id="last-name" type="text" requiered name="last-name" />
+      </label>
+
+
+      <label for="last-name">
+        Correo electronico:
+        <input id="email" type="email" requiered name="email" />
+
+      </label>
+
+      <label for="first-name">
+        Numero de telefono:
+        <input id="first-name" type="text" requiered name="first-name" />
+
+      </label>
+
+
+    </fieldset>
+
+
+    </fieldset>
+
+    <fieldset>
+      Numero de personas
+      <label for="age">
+        <input type="number" min="1" max="30">
+
+      </label>
+
+
+      <label for="fecha">Fecha y hora de reserva:</label><br />
+      <input type="date" id="fecha" name="fecha" required /><br /><br />
+      <input type="time" id="time" name="time" required /><br /><br />
+
+      <label for="referrer">
+        ¿Como nos conociste?
+        <select id="referrer" name="referrer">
+          <option value="">Seleccionar</option>
+          <option value="1">Internet</option>
+          <option value="2">Recomendacion de amigos</option>
+          <option value="3">Televisión</option>
+          <option value="3">Otros</option>
+        </select>
+      </label>
+
+      <label for="bio">
+        Observaciones:
+        <textarea id="bio" rows="3" cols="30" placeholder="Alergias, sin sal, vegano, etc..." name="text">
+        </textarea>
+      </label>
+
+
+
+
+    </fieldset>
+
+    <input type="submit" value="Enviar">
+  </form>
+
+</body>
+
+<footer>
+  <label for="terms-and-conditions">
+    <input type="checkbox" id="terms-and-conditions" name="terms" class="inline">
+    Acepto los <a href="*enlace de terminos" tarjet="_blank">términos y condiciones</a>
+  </label>
+
+</footer>
+
+</html>
